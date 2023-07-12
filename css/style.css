@@ -1,0 +1,40 @@
+body{
+    background-color: #EAF6F6;
+}
+
+hr{
+    background-color:white;
+ 
+    /*1. border-style: dotted; */
+    /* 2.border-style: dotted none none; */
+    /* or */
+    border-style: none;
+    border-top-style: dotted;
+
+    border-color: grey;
+    border-width: 5px ;
+    /* height: 2px; */
+    height: 0px;
+    
+    /* but you don't want to hardcode that cz everyone would be watching websites on diff platforms like pc or phones */
+    /* so in order to avoid that we use simply percentage */
+    width: 3%;
+}
+img{
+    height: 150px;
+
+}
+/* if we use */
+img:hover{
+    background-color:rgb(36, 31, 31);
+    
+}
+/* it will show red-color background after hovering over that pic. */
+
+h1{
+    color: #66bfbf;
+    font-family:'Times New Roman', Times, serif;
+}
+h3{
+    color: #66bfbf;
+}
